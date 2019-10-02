@@ -635,7 +635,7 @@ module JsonApiClient
     def fill_errors
       last_result_set.errors.each do |error|
         key = self.class.key_formatter.unformat(error.error_key)
-        errors.add(key, error_message_for(error))
+        errors.add(key, error_message_for(error), jsonapi_error: error)
       end
     end
   end
