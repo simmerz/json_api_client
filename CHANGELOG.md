@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.16.0
+
+- [#359](https://github.com/JsonApiClient/json_api_client/pull/359) - Support gzip content encoding
+
 ## 1.15.0
 
 - [#346](https://github.com/JsonApiClient/json_api_client/pull/346) - add the option to have immutable resources
